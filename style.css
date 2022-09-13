@@ -10,7 +10,7 @@ body {
 }
 
 .bg-img {
-  background: url("/images/kraunt_man_is_riding_hastily_horse_in_rainy_forest_at_night_moo_af315a3a-dadb-414a-ac20-a400c58ade41.png");
+  background: url("./images/kraunt_man_is_riding_hastily_horse_in_rainy_forest_at_night_moo_af315a3a-dadb-414a-ac20-a400c58ade41.png");
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -21,7 +21,11 @@ body {
   justify-content: space-between;
   padding: 20px 40px;
   background: rgb(14, 28, 38);
-  background: linear-gradient(180deg, rgb(14, 28, 38) 0%, rgba(166, 100, 25, 0) 98%);
+  background: linear-gradient(
+    180deg,
+    rgb(14, 28, 38) 0%,
+    rgba(166, 100, 25, 0) 98%
+  );
 }
 .navbar .startnav img {
   margin-left: 40px;
@@ -86,7 +90,11 @@ img {
 
 footer {
   background: rgb(14, 28, 38);
-  background: linear-gradient(0deg, rgba(14, 28, 38, 0.706320028) 20%, rgba(166, 100, 25, 0) 98%);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 28, 38, 0.706320028) 20%,
+    rgba(166, 100, 25, 0) 98%
+  );
   color: #2a454b;
   width: 100%;
   text-align: center;
