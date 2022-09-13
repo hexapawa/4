@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
+.bg-img {
+  background: url("/images/kraunt_man_is_riding_hastily_horse_in_rainy_forest_at_night_moo_af315a3a-dadb-414a-ac20-a400c58ade41.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgb(14, 28, 38);
+  background: linear-gradient(180deg, rgb(14, 28, 38) 0%, rgba(166, 100, 25, 0) 98%);
+}
+.navbar .startnav img {
+  margin-left: 40px;
+}
+.navbar .endnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .endnav .button0 {
+  margin-right: 40px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 4px solid #253e45;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: auto;
+  height: 95px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  margin-top: 75px;
+}
+.container .area {
+  margin-top: 30px;
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 4px solid #253e45;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 2rem;
+}
+.container .desc {
+  margin-top: 20px;
+  width: 50vw;
+  padding: 10px 50px;
+  font-size: 1rem;
+}
+.container .h1 {
+  font-size: 10rem;
+}
+.container p {
+  font-size: 2rem;
+}
+
+footer {
+  background: rgb(14, 28, 38);
+  background: linear-gradient(0deg, rgba(14, 28, 38, 0.706320028) 20%, rgba(166, 100, 25, 0) 98%);
+  color: #2a454b;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
