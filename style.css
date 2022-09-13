@@ -10,7 +10,7 @@ body {
 }
 
 .bg-img {
-  background: url("./images/kraunt_man_is_riding_hastily_horse_in_rainy_forest_at_night_moo_af315a3a-dadb-414a-ac20-a400c58ade41.png");
+  background: url("/images/kral.png");
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
